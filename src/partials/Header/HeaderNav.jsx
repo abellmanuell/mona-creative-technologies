@@ -12,8 +12,12 @@ import { useContext } from "react";
 import { HeaderContext } from "./HeaderContext";
 
 export const HeaderNav = ({ children }) => {
-  const { showSidebar, toggleShowSidebar, isDesktop, scrolledOver } =
-    useContext(HeaderContext);
+  const {
+    showSidebar,
+    toggleShowSidebar,
+    isDesktop,
+    // scrolledOver
+  } = useContext(HeaderContext);
 
   return (
     <>

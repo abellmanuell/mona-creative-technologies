@@ -5,6 +5,7 @@ import { ScrollToLink } from "../../components/ScrollToLink/ScrollToLink";
 import { usePaths } from "../../hooks/usePaths";
 
 import { FooterForm } from "./FooterForm";
+import { Link } from "react-router-dom";
 
 const links = [
   {
@@ -74,13 +75,18 @@ export const Footer = () => {
             </div>
           </div>
 
-          {/* Footer form */}
-          <div className="flex flex-col gap-2 md:row-span-2">
-            <h3 className="px-2 text-2xl font-thin text-green-500">
-              {/* Get in Touch */}
-            </h3>
+          {/* Get help */}
+          <div className="flex flex-col gap-2">
+            <h3 className="px-2 text-2xl font-thin text-green-500">Get help</h3>
 
-            <FooterForm />
+            <ul className="space-y-3">
+              <li>
+                <Link to="/privacy-policy">Privacy policy</Link>
+              </li>
+              <li>
+                <Link to="/terms-of-service">Terms of service</Link>
+              </li>
+            </ul>
           </div>
 
           {/* Links */}
