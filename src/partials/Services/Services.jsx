@@ -66,7 +66,7 @@ export const Services = () => {
             deep understanding of users, markets, and long-term growth.
           </SectionParagraph>
 
-          <SectionParagraph>
+          <div className="p-4 border-l-2 border-l-green-500 bg-neutral-100">
             We build:
             <br />
             <br />
@@ -81,7 +81,7 @@ export const Services = () => {
                 needs
               </li>
             </ul>
-          </SectionParagraph>
+          </div>
 
           <SectionParagraph>
             From ideation and product strategy to development and deployment, we
@@ -98,7 +98,7 @@ export const Services = () => {
             opportunity.
           </SectionParagraph>
 
-          <SectionParagraph>
+          <div className="p-4 border-l-2 border-l-green-500 bg-neutral-100">
             We offer:
             <ul>
               <li>- Web development training</li>
@@ -108,7 +108,7 @@ export const Services = () => {
                 - Tech training for individuals, groups, and organizations
               </li>
             </ul>
-          </SectionParagraph>
+          </div>
 
           <SectionParagraph>
             Our focus is not just on learning tools, but on building
